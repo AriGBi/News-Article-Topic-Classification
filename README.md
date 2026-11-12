@@ -1,5 +1,7 @@
 Project Structure and Execution Guide
 ======================================
+The project consists in predicting the topic associated with a news article. Each article is described by a set of six attributes, excluding
+the target variable. These include both unstructured textual features, such as the article body and title, and structured metadata.
 
 This directory contains the code and outputs required to reproduce the preprocessing, model selection,
 training, and prediction pipeline described in the project report.
@@ -20,15 +22,6 @@ Contents
 - analysis.ipynb
   File containing all our exploratory work
 
-- submission_Logistic_Regression.csv
-  Submission file generated using the Logistic Regression model.
-
-- submission_Linear_SVC.csv
-  Submission file generated using the Linear Support Vector Classifier
-
-- development.csv
-
-- evaluation.csv
 
 
 Main Script Overview
